@@ -14,8 +14,7 @@ void intialise(char realboard[][maxside], char myboard[][maxside])
     for (int i=0; i<side; i++)
     {
         for (int j=0; j<side; j++)
-        {
-            myboard[i][j] = realboard[i][j] = '-';
+        {            myboard[i][j] = realboard[i][j] = '-';
         }
     }
     return;
